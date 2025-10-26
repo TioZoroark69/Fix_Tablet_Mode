@@ -1,0 +1,9 @@
+[Desktop Entry]
+Comment=Desactiva intel_ish_ipc automáticamente
+Name=Tablet Mode Fix
+Exec=sh -c "cd \"$(dirname \"$0\")\" && ./tablet_mode_fix"
+Terminal=true
+Type=Application
+Icon=./ico.png
+Categories=Utility;
+
