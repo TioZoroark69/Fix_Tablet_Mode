@@ -9,19 +9,29 @@ Este mini programa desactiva automáticamente el módulo intel_ish_ipc en laptop
 Cómo funciona:
 
 Al ejecutarlo, el programa:
+
 1- Deshabilita el módulo intel_ish_ipc.
+
 2- Agrega el módulo a la lista negra para que no se cargue al inicio.
+
 3- Actualiza el initramfs.
+
 4- Pregunta al usuario si desea reiniciar la PC para aplicar los cambios.
 
 Requisitos:
+
 -Linux (probado en Linux Mint / Ubuntu).
+
 -Permisos de administrador (sudo) para ejecutar los comandos del sistema.
 
 Uso:
+
 1- Coloca el archivo ejecutable tablet_mode_fix y el archivo .desktop en la misma carpeta.
+
 2- Ejecuta el programa desde la terminal o haciendo doble clic en el lanzador.
+
 3- Responde si deseas reiniciar al final del proceso.
+
 
 Icono:
 Se puede personalizar reemplazando el archivo ico.png en la misma carpeta que el lanzador .desktop... la verdad creo que ni pude hacerlo bien :c
